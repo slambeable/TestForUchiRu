@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <title>Тестовое задание</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header><h1>Выбери все уравнения,<br> в котором решением является число 6</h1></header>
+    <main>
+      <div id="allButton">
+        <button id="correctAnswer1" class="unpressed correct" type="button"> 5 + x = 11</button>
+        <button id="uncorrectAnswer1" class="unpressed uncorrect" type="button"> 16 - x = 12</button>
+        <button id="correctAnswer2" class="unpressed correct" type="button"> x + 5 = 11</button>
+        <button id="uncorrectAnswer2" class="unpressed uncorrect" type="button"> x - 16 = 12</button>
+      </div> 
+    </main>
+    <footer>
+      <div id="footer1">
+        <span  id="tip"></span>
+      </div>
+      <div id="footer2">
+        <input id="check" class="lock" type="button" value="Готово" disabled/>
+      </div>
+    </footer>
+  </body>
+
+</html>

@@ -1,0 +1,90 @@
+html {
+    width: 1024px;
+    height: 560px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+#allButton {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    color: #3a76a3;
+    border-color: #3a76a3;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+    color: #3a76a3;
+}
+
+.pressed {
+    background-color: #3a76a3;
+    color: white;
+}
+
+.uncorrectPressed {
+    background-color: #f05a69;
+    border-color: #f05a69;
+    color: white;
+}
+
+#footer1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#footer2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tip {
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #add9da;
+    opacity: 0;
+}
+
+#check {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.lock {
+    background-color: #b9e0ed;
+}
+
+.unlock {
+    background-color: #70c5e2;
+}
+
+.checkPassed {
+    background-color: #8fbe83;
+}
+
+.checkError {
+    background-color: #f05a69;
+}
+
+.unlock:hover {
+    background-color: #39b6e2;
+}
