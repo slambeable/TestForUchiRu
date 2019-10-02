@@ -9,8 +9,9 @@ $(document).ready(function() {
         $('button').addClass('unpressed');
         $('button').removeClass('pressed');
         $('button').removeClass('uncorrectPressed');
-        $('#check').removeAttr('disabled');
+        $('#check').prop("disabled",true);
         $('#check').removeClass('checkError');
+        $('#check').removeClass('unlock');
         $('#check').addClass('lock');
         if (order === 'NotAll') {
             $('#tip').text('Это не все правильные ответы');
@@ -26,7 +27,7 @@ $(document).ready(function() {
         if (result === 0) {
             $('#check').addClass('lock');
             $('#check').removeClass('unlock');
-            $('#check').attr('disabled');
+            $('#check').prop("disabled",true);
         } else {
             $('#check').addClass('unlock');
             $('#check').removeClass('lock');
